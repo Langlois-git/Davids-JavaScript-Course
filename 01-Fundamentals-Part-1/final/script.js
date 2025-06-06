@@ -466,6 +466,7 @@ const bill = 430;
 const tip = bill <= 300 && bill >= 50 ? bill * 0.15 : bill * 0.2;
 console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`);
 */
+/*
 let js = 'amazing';
 if (js === 'amazing') alert('JavaScript is FUN!');
 console.log(10 + 10 + 10);
@@ -475,6 +476,7 @@ let firstName = 'David';
 console.log(firstName); 
 console.log(firstName); 
 console.log(firstName); 
+*/
 
 /* Variable naming conventions
 Camel Case: The first letter of the first word is lowercase, 
@@ -491,5 +493,54 @@ Variables should not use reserved keywords (e.g., let, const, var, function, etc
 The variable 'name' is not defined because it has not been declared or assigned a value before being used.
 Varibles in uppercase are usually used for constants or values that should not change. such as pi
 */
-myFirstJob = 'Power Engineer'
-mySecondJob = 'Programmer'
+// myFirstJob = 'Power Engineer'
+// mySecondJob = 'Programmer'
+
+/* In Javascript every is either an object, which is a collection of key-value pairs, 
+or a primitive value, which is a single value.
+
+There are 7 primitive data types in JavaScript:
+1. Number: Represents numeric values, both integers and floating-point numbers.
+2. String: Represents a sequence of characters, enclosed in single or double quotes.
+3. Boolean: Represents a logical value, either true or false.
+4. Undefined: Represents a variable that has been declared but has not been assigned a value.
+5. Null: Represents the intentional absence of any object value.
+6. Symbol: Represents a unique and immutable value, often used as object property keys.
+7. BigInt: Represents integers with arbitrary precision, allowing for very
+large numbers beyond the range of the Number type.
+*/
+/*
+
+true;
+console.log(true);
+let javascriptIsFun = true;
+console.log(javascriptIsFun);
+
+// Javascript is evaluated from top to bottom, so if you try to use a variable before it is declared, you will get an error.
+
+console.log(typeof javascriptIsFun);
+console.log(typeof 17);
+console.log(typeof 'David');
+console.log(typeof true);
+
+// Javascript is a dynamically typed language, meaning that variables can change their type during runtime.
+
+javascriptIsFun = 'YES!';
+console.log(javascriptIsFun);
+console.log(typeof javascriptIsFun);
+let year;
+console.log(year);
+console.log(typeof year);
+
+// When you decare an empty variable, it is automatically assigned the value of undefined.
+
+year = 2025;
+console.log(typeof year);
+
+console.log(typeof null); // null is an object, but it is a primitive value
+// This is a known bug in JavaScript, and it is not going to be fixed.
+
+
+*/
+
+
