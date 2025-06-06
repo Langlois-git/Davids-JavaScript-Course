@@ -469,3 +469,27 @@ console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${bil
 let js = 'amazing';
 if (js === 'amazing') alert('JavaScript is FUN!');
 console.log(10 + 10 + 10);
+console.log('David');
+console.log(24);
+let firstName = 'David';
+console.log(firstName); 
+console.log(firstName); 
+console.log(firstName); 
+
+/* Variable naming conventions
+Camel Case: The first letter of the first word is lowercase, 
+and the first letter of each subsequent word is uppercase.
+Example: myVariableName
+Snake Case: All letters are lowercase, and words are separated by underscores.
+
+Variables cannot start with a number
+Variables cannot contain spaces or special characters (except for underscores and dollar signs).
+Variables should be descriptive and meaningful, indicating their purpose or content.
+The error "Uncaught SyntaxError: Unexpected token" usually occurs when there is a syntax error in the code, 
+such as a missing or misplaced character, or an incorrect use of a keyword.
+Variables should not use reserved keywords (e.g., let, const, var, function, etc.) as names.
+The variable 'name' is not defined because it has not been declared or assigned a value before being used.
+Varibles in uppercase are usually used for constants or values that should not change. such as pi
+*/
+myFirstJob = 'Power Engineer'
+mySecondJob = 'Programmer'
