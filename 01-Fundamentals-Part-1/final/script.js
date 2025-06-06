@@ -543,4 +543,25 @@ console.log(typeof null); // null is an object, but it is a primitive value
 
 */
 
+// 
+// let, const and var
+// let is used to declare variables that can be reassigned later.
 
+let age = 23;
+age = 24; // This is allowed with let, this is called mutating a variable
+
+// const is used to declare variables that cannot be reassigned later.
+const birthYear = 2001
+// birthYear = 2000; // This will throw an error Assignmennt to constant, because const variables cannot be reassigned
+// Variables that cannot be reassigned are immutable, meaning that their value cannot change after they are declared.
+// You should always use const when you know that the value of the variable will not change,
+// and use let when you know that the value of the variable will change.
+
+var job = 'programmer'; // var is used to declare variables that can be reassigned later, 
+// but it is not recommended to use var anymore.
+
+// We do not actually need to declare variables in JavaScript, but it is a good practice to do so.
+lastName = 'langlois'; // This is allowed, but it is not recommended to use undeclared variables.
+console.log(lastName); // This will print the value of lastName, which is 'langlois'
+// This is called a global variable, meaning that it can be accessed from anywhere in the code.
+// Global variables are not recommended, because they can cause conflicts with other variables in the code.
