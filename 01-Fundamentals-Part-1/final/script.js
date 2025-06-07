@@ -541,7 +541,6 @@ console.log(typeof null); // null is an object, but it is a primitive value
 // This is a known bug in JavaScript, and it is not going to be fixed.
 
 
-*/
 
 // 
 // let, const and var
@@ -565,3 +564,31 @@ lastName = 'langlois'; // This is allowed, but it is not recommended to use unde
 console.log(lastName); // This will print the value of lastName, which is 'langlois'
 // This is called a global variable, meaning that it can be accessed from anywhere in the code.
 // Global variables are not recommended, because they can cause conflicts with other variables in the code.
+*/
+
+const now = 2025;
+const ageDavid = 2025 - 2001;
+const ageEmily = 2025 - 2018; 
+console.log(ageDavid);
+console.log(ageDavid, ageEmily);
+console.log(ageDavid * 2, ageEmily / 10, 2 ** 3); // 2 ** 3 means 2 to the power of 3 = 2 * 2 * 2
+
+const firstName = 'David';
+const lastname = 'langlois';
+console.log(firstName + ' ' + lastName); // This is called string concatenation,
+// meaning that we are joining two strings together
+
+// Assignment operators
+let X = 24 - 18; // ' = ' is the assignment operator, meaning that we are assigning the value of
+//  24 - 18 to the variable X
+x += 10; // ads 10 to the value of x, so x = x + 10
+x *= 10; // multiplies the value of x by 10, so x = x * 10
+x++; // adds 1 to the value of x, so x = x + 1
+x--; // subtracts 1 from the value of x, so x = x - 1
+
+// Comparison operators
+console.log(ageDavid > ageEmily); // Is ageDavid greater than ageEmily? (True or False)
+// >, <, >=, <= are comparilson operators
+console.log(ageEmily >= 18); // Is ageEmily greater than or equal to 18? (True or False)
+const isFullAge = ageEmily >= 18; // This is a boolean variable, meaning that it can only be true or false
+console.log(now - 2001 > now - 2018); // Is David's age greater than Emily's age? (True or False)
