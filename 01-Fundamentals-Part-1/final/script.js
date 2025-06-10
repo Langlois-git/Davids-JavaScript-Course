@@ -565,7 +565,7 @@ console.log(lastName); // This will print the value of lastName, which is 'langl
 // This is called a global variable, meaning that it can be accessed from anywhere in the code.
 // Global variables are not recommended, because they can cause conflicts with other variables in the code.
 */
-
+/*
 const now = 2025;
 const ageDavid = 2025 - 2001;
 const ageEmily = 2025 - 2018; 
@@ -592,3 +592,51 @@ console.log(ageDavid > ageEmily); // Is ageDavid greater than ageEmily? (True or
 console.log(ageEmily >= 18); // Is ageEmily greater than or equal to 18? (True or False)
 const isFullAge = ageEmily >= 18; // This is a boolean variable, meaning that it can only be true or false
 console.log(now - 2001 > now - 2018); // Is David's age greater than Emily's age? (True or False)
+*/
+// ===============================OPERTAOR PRECEDENCE========================
+/*██╗     ███████╗ ██████╗████████╗██╗   ██╗██████╗ ███████╗                
+██║     ██╔════╝██╔════╝╚══██╔══╝██║   ██║██╔══██╗██╔════╝                
+██║     █████╗  ██║        ██║   ██║   ██║██████╔╝█████╗                  
+██║     ██╔══╝  ██║        ██║   ██║   ██║██╔══██╗██╔══╝                  
+███████╗███████╗╚██████╗   ██║   ╚██████╔╝██║  ██║███████╗                
+╚══════╝╚══════╝ ╚═════╝   ╚═╝    ╚═════╝ ╚═╝  ╚═╝╚══════╝                
+                                                                          
+ ██╗██╗  ██╗                                                              
+███║██║  ██║                                                              
+╚██║███████║                                                              
+ ██║╚════██║                                                              
+ ██║     ██║▄█╗                                                           
+ ╚═╝     ╚═╝╚═╝                                                           
+                                                                          
+ ██████╗ ██████╗ ███████╗██████╗  █████╗ ████████╗ ██████╗ ██████╗        
+██╔═══██╗██╔══██╗██╔════╝██╔══██╗██╔══██╗╚══██╔══╝██╔═══██╗██╔══██╗       
+██║   ██║██████╔╝█████╗  ██████╔╝███████║   ██║   ██║   ██║██████╔╝       
+██║   ██║██╔═══╝ ██╔══╝  ██╔══██╗██╔══██║   ██║   ██║   ██║██╔══██╗       
+╚██████╔╝██║     ███████╗██║  ██║██║  ██║   ██║   ╚██████╔╝██║  ██║       
+ ╚═════╝ ╚═╝     ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝    ╚═════╝ ╚═╝  ╚═╝       
+                                                                          
+██████╗ ██████╗ ███████╗ ██████╗███████╗██████╗ ███████╗███╗   ██╗ ██████╗
+██╔══██╗██╔══██╗██╔════╝██╔════╝██╔════╝██╔══██╗██╔════╝████╗  ██║██╔════╝
+██████╔╝██████╔╝█████╗  ██║     █████╗  ██║  ██║█████╗  ██╔██╗ ██║██║     
+██╔═══╝ ██╔══██╗██╔══╝  ██║     ██╔══╝  ██║  ██║██╔══╝  ██║╚██╗██║██║     
+██║     ██║  ██║███████╗╚██████╗███████╗██████╔╝███████╗██║ ╚████║╚██████╗
+╚═╝     ╚═╝  ╚═╝╚══════╝ ╚═════╝╚══════╝╚═════╝ ╚══════╝╚═╝  ╚═══╝ ╚═════╝
+                                                                          
+███████╗                                                                  
+██╔════╝                                                                  
+█████╗                                                                    
+██╔══╝                                                                    
+███████╗                                                                  
+╚══════╝ 
+*/                                                                 
+const now = 2025;
+const ageDavid = 2025 - 2001;
+const ageEmily = 2025 - 2018; 
+
+console.log(now - 2001 > now - 2018); // Is David's age greater than Emily's age? (True or False)
+
+// Operator precedence determines the order in which operators are evaluated in an expression.
+//  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_precedence
+
+let x,y = 25-10-5;
+
